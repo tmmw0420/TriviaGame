@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"
+    <title>TriviaGame</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link ref="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+  </head>
+    <body>
+      <div id="startbutton">
+        <button onclick="showQues()" id="start">Start the Quiz</button>
+      </div>
+    <div class="questions">
+      <p>This is question number 1</p>
+      <table width="400" border="1">
+        <tbody>
+          <tr>
+          <td><input type="radio" name="ques1" id="Ques1Ans1" value="radio">
+              <label for="radio">Possible answer 1 Here </label></td>
+            <td><input type="radio" name="ques1" id="ans2" value="radio">
+              <label for="radio">Possible Answer 2 Here </label></td></td>
+          </tr>
+          <tr>
+            <td><input type="radio" name="ques1" id="ans3" value="radio">
+              <label for="radio">Possible Answer 3 Here </label></td></td>
+            <td><input type="radio" name="ques1" id="ans4" value="radio">
+              <label for="radio">Possible Answer 4 Here</label></td></td>
+          </tr>
+        </tbody>
+    </table>
+  <p>
+    <button input type="button" name"button" id="btnSubmit" value="Submit" onClick='fQuest1()'>Submit 1</button>
+  </p>
+
+  <p>This is question number 2</p>
+    <table width="400" border="1">
+      <tbody>
+        <tr>
+          <td><input type="radio" name="ques2" id="ans1" value="radio">
+            <label for="radio">Possible answer 1</label></td>
+          <td><input type="radio" name="ques2" id="ans2" value="radio">
+            <label for="radio">Possible Answer 2</label></td></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="ques2" id="ans3" value="radio">
+            <label for="radio">Possible Answer 3</label></td></td>
+          <td><input type="radio" name="ques2" id="ans4" value="radio">
+            <label for="radio">Possible Answer 4</label></td></td>
+        </tr>
+    </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 2</button>
+  </p>
+  <p>This is question number 3</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques3" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques3" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques3" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques3" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 3</button>
+  </p>
+  <p>This is question number 4</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques4" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques4" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques4" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques4" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 4</button>
+  </p>
+  <p>This is question number 5</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques5" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques5" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques5" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques5" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 5</button>
+  </p>
+  <p>This is question number 6</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques6" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques6" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques6" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques6" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 6</button>
+  </p>
+  <p>This is question number 7</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques7" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques7" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques7" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques7" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 7</button>
+  </p>
+  <p>This is question number 8</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques8" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques8" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques8" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques8" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 8</button>
+  </p>
+  <p>This is question number 9</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques9" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques9" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques9" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques9" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 9</button>
+  </p>
+  <p>This is question number 10</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques10" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques10" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques10" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques10" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 10s</button>
+  </p>
+  <p>This is question number 8</p>
+  <table width="400" border="1">
+    <tbody>
+      <tr>
+        <td><input type="radio" name="ques11" id="ans1" value="radio">
+          <label for="radio">Possible answer 1</label></td>
+        <td><input type="radio" name="ques11" id="ans2" value="radio">
+          <label for="radio">Possible Answer 2</label></td></td>
+      </tr>
+      <tr>
+        <td><input type="radio" name="ques11" id="ans3" value="radio">
+          <label for="radio">Possible Answer 3</label></td></td>
+        <td><input type="radio" name="ques11" id="ans4" value="radio">
+          <label for="radio">Possible Answer 4</label></td></td>
+      </tr>
+  </tbody>
+  </table>
+  <p>
+    <button input type="button" name"button" id="button" value="button">Submit 10</button>
+  </p>
+</div>
+
+<script>
+  function showQues(){
+    var startTrivia=document.getElementById('trivia');
+    var displaySetting=startTrivia.style.display;
+    var btnToStart=document.getElementById('start')
+if (displaySetting=='block'){
+  startTrivia.style.display ='none';
+  btnToStart.innerHTML='Game started';
+
+}
+  }
+
+</script>
+
+</body>
+</html>
+
+### Option One: Basic Quiz (Timed Form)
+![Basic](Images/1-basic.jpg)
+
+**[Click Here to Watch the Demo](basic-trivia-demo.mov)**.
+* You'll create a trivia form with multiple choice or true/false options (your choice).
+
+* The player will have a limited amount of time to finish the quiz.
+  * The game ends when the time runs out. The page will reveal the number of questions that players answer correctly and incorrectly.
+
+* Don't let the player pick more than one answer per question.
+
+* Don't forget to include a countdown timer.
